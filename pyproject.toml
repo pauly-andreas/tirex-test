@@ -1,0 +1,12 @@
+[project]
+name = "tirex-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chronos-forecasting>=2.3.0",
+    "matplotlib>=3.11.0",
+    "pandas[pyarrow]>=2.3.3",
+    "tirex-ts[all]>=1.4.2",
+]
